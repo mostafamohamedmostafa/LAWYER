@@ -163,3 +163,25 @@
 
 
 /*    <!-- End Question Section -->*/
+
+.contact-us {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.contact-us .card {
+    border: none;
+    background-color: #f2f2f2;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    border-radius: 19px;
+    -webkit-box-shadow: 7px 7px 15px 7px lightgray;
+    box-shadow: 7px 7px 15px 7px lightgray;
+}
+
+.contact-us li {
+    font-weight: bolder;
+    font-size: larger;
+    text-align: right;
+}
