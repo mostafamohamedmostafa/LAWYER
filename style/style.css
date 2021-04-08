@@ -133,3 +133,32 @@
     }
     /*<!-- End Services Section -->*/
 }
+
+
+/*    <!-- Start Question Section -->*/
+
+.legal-question {
+    text-align: right;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.legal-question .card-header {
+    background: none;
+    border-top: none;
+    border-bottom: none;
+    border-bottom: 1px solid royalblue;
+}
+
+.legal-question .card {
+    border: none !important;
+}
+
+.legal-question a {
+    text-align: right;
+    border-left: none;
+    border-right: none;
+}
+
+
+/*    <!-- End Question Section -->*/
