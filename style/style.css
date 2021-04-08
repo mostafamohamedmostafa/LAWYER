@@ -66,6 +66,10 @@
 
 /*<!-- Start About Section -->*/
 
+.about-section {
+    font-size: large;
+}
+
 .about-section .card {
     text-align: right;
     border: none;
@@ -74,6 +78,16 @@
 
 .about-section .card .card-body {
     margin-right: 5%;
+}
+
+.about-section p {
+    color: #3957ff;
+    font-weight: bold;
+}
+
+.about-section li {
+    font-weight: bolder;
+    font-size: large;
 }
 
 
