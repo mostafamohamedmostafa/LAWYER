@@ -20,6 +20,7 @@
     text-align: center;
     font-size: xx-large;
     margin-top: 4%;
+    font-weight: 700;
 }
 
 @media (max-width: 768px) {
@@ -46,6 +47,23 @@
 /*<!-- End Intro Section -->*/
 
 
+/*<!-- Start qutoes Section -->*/
+
+.qutoe .card {
+    text-align: center;
+    border: none;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    border-radius: 19px;
+    -webkit-box-shadow: 7px 7px 15px 7px lightgray;
+    box-shadow: 7px 7px 15px 7px lightgray;
+    margin-bottom: 5%;
+}
+
+
+/*<!-- End qutoes Section -->*/
+
+
 /*<!-- Start About Section -->*/
 
 .about-section .card {
@@ -66,22 +84,27 @@
 
 .service-section {
     background-color: #f2f2f2;
+    margin-top: 5%;
 }
 
 .service-section h5 {
-    text-align: right;
+    text-align: center;
+    margin: 5% 0% 5% 0%;
 }
 
 .service-section .card {
-    text-align: right;
-    border: none;
-    width: 100% !important;
-    margin-right: 1%;
+    text-align: center;
     border: none;
     background-color: #f2f2f2;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    border-radius: 19px;
+    -webkit-box-shadow: 7px 7px 15px 7px lightgray;
+    box-shadow: 7px 7px 15px 7px lightgray;
+    margin-bottom: 5%;
 }
 
-.service-section .card-group span {
+.service-section span {
     font-size: x-large;
     border-bottom: #35d4be 3px solid;
 }
