@@ -88,6 +88,7 @@
 .about-section li {
     font-weight: bolder;
     font-size: large;
+    margin-bottom: 5%;
 }
 
 
@@ -184,4 +185,5 @@
     font-weight: bolder;
     font-size: larger;
     text-align: right;
+    margin-bottom: 5%;
 }
