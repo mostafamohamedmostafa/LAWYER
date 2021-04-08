@@ -138,16 +138,17 @@
 /*    <!-- Start Question Section -->*/
 
 .legal-question {
-    text-align: right;
+    text-align: center;
     width: 95%;
     margin: 0 auto;
+    margin-top: 5%;
 }
 
 .legal-question .card-header {
     background: none;
     border-top: none;
     border-bottom: none;
-    border-bottom: 1px solid royalblue;
+    border-bottom: 1px solid lightblue;
 }
 
 .legal-question .card {
