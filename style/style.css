@@ -3,3 +3,96 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+
+/*<!-- Start Intro Section -->*/
+
+.intro-section {
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.intro-section .card-title {
+    color: #3957ff;
+}
+
+.intro-section .card .card-img-overlay {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 4%;
+}
+
+@media (max-width: 768px) {
+    .intro-section {
+        margin-bottom: 10%;
+    }
+    .intro-section .card {
+        height: 30vh;
+    }
+    .intro-section .card img {
+        height: 30vh;
+    }
+    .intro-section .card .card-img-overlay h2 {
+        text-align: center;
+        font-size: large;
+    }
+    .intro-section .card .card-img-overlay p {
+        text-align: center;
+        font-size: medium;
+    }
+}
+
+
+/*<!-- End Intro Section -->*/
+
+
+/*<!-- Start About Section -->*/
+
+.about-section .card {
+    text-align: right;
+    border: none;
+    width: 100% !important;
+}
+
+.about-section .card .card-body {
+    margin-right: 5%;
+}
+
+
+/*<!-- End About Section -->*/
+
+
+/*<!-- Start Services Section -->*/
+
+.service-section {
+    background-color: #f2f2f2;
+}
+
+.service-section h5 {
+    text-align: right;
+}
+
+.service-section .card {
+    text-align: right;
+    border: none;
+    width: 100% !important;
+    margin-right: 1%;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.service-section .card-group span {
+    font-size: x-large;
+    border-bottom: #35d4be 3px solid;
+}
+
+
+/*<!-- End Services Section -->*/
+
+@media (max-width: 768px) {
+    /*<!-- Start Services Section -->*/
+    .service-section .card {
+        font-size: small;
+    }
+    /*<!-- End Services Section -->*/
+}
