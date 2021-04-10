@@ -83,12 +83,23 @@
 .about-section p {
     color: #3957ff;
     font-weight: bold;
+    text-align: right;
+}
+
+.about-section h2 {
+    text-align: center;
+    font-weight: bolder;
 }
 
 .about-section li {
+    text-align: right;
     font-weight: bolder;
     font-size: large;
     margin-bottom: 5%;
+}
+
+.about-section i {
+    color: blue;
 }
 
 
@@ -102,9 +113,10 @@
     margin-top: 5%;
 }
 
-.service-section h5 {
+.service-section h2 {
     text-align: center;
     margin: 5% 0% 5% 0%;
+    font-weight: bolder;
 }
 
 .service-section .card {
@@ -186,4 +198,13 @@
     font-size: larger;
     text-align: right;
     margin-bottom: 5%;
+}
+
+footer {
+    margin-top: 2%;
+    text-align: center;
+}
+
+footer img {
+    width: 50%;
 }
