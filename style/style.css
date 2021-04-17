@@ -138,6 +138,9 @@
 /*<!-- End Services Section -->*/
 
 @media (max-width: 768px) {
+    .navigation-bar a {
+        font-size: medium;
+    }
     /*<!-- Start Services Section -->*/
     .service-section .card {
         font-size: small;
