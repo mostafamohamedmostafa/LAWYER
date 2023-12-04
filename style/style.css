@@ -32,17 +32,18 @@
         margin-bottom: 10%;
     }
     .intro-section .card {
-        height: 40vh;
+        height: 45vh;
     }
     .intro-section .card img {
-        height: 40vh;
+        height: 45vh;
     }
     .intro-section .card .card-img-overlay h2 {
         text-align: center;
+        font-size: larger;
     }
     .intro-section .card .card-img-overlay h3 {
         text-align: center;
-        font-size: x-large;
+        font-size: large;
     }
 }
 
